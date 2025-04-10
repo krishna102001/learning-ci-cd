@@ -22,4 +22,4 @@ jobs:
           push: true
           tags: krishna102001/mynextjsapp:latest
       - name: Verify pushed images
-        uses: docker pull krishna102001/mynextjsapp
+        run: docker pull krishna102001/mynextjsapp
